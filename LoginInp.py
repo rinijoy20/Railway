@@ -41,4 +41,22 @@ while True:
     break
     e=input(" ||  **SELECT** || :-")
 
-   
+  #  Import other functions
+
+    if e=="1" :
+     print(railsmenu())
+    elif e=="2":
+      print(" ")
+      print("\n"
+        "      \n"
+        "          ##======================================================##\n"
+        "          ||                      THANK YOU                       ||\n"
+        "          ##======================================================##\n"
+        "\n")
+      print(''' DEVELOPED BY RINI ''')
+    else:
+        print(" ")
+        print("!!!~PLEASE ENTER 1 OR 2!!!~")
+        mydb.close()
+
+ 
